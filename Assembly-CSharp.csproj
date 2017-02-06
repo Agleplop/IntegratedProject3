@@ -46,7 +46,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Blockspawner.cs" />
+     <Compile Include="Assets\GameController.cs" />
+     <Compile Include="Assets\Obstacle.cs" />
+     <Compile Include="Assets\PlatformCreator.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
