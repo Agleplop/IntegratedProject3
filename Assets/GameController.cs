@@ -11,6 +11,9 @@ public class GameController : MonoBehaviour
 	public void Hit ()
 	{
 		StartCoroutine (EndGame ());
+		Screen.autorotateToLandscapeLeft = false;
+		Screen.autorotateToLandscapeRight = false;
+		Screen.autorotateToPortraitUpsideDown = false;
 	}
 
 	IEnumerator EndGame ()

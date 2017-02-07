@@ -39,7 +39,7 @@ public class PlatformCreator : MonoBehaviour
 
 				GameObject l = platformList[platformList.Count - 1];
 
-				GameObject platformObject = Instantiate(platform[Random.Range (0, 5)], new Vector3(l.transform.position.x, l.transform.position.y, l.transform.position.z + 10), Quaternion.identity) as GameObject;
+				GameObject platformObject = Instantiate(platform[Random.Range (1, 8)], new Vector3(l.transform.position.x, l.transform.position.y, l.transform.position.z + 10), Quaternion.identity) as GameObject;
 				platformList.Add (platformObject);
 
 				return;
